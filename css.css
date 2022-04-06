@@ -1,7 +1,7 @@
 .keresztezodes {
     background: whitesmoke;
-    width: 100vw;
-    height: 100vh;
+    width: 100vw; /* Egy képernyő széles */
+    height: 100vh; /* Egy képernyő magas */
     display: grid;
     grid-template-columns: 30% 200px auto;
     grid-template-rows: 40% 20% auto;
@@ -17,7 +17,9 @@ img {
 }
 .auto {
 /*helyezd el az autót a lámpa alatt az úttesten!*/
-
+    position: absolute;
+    top: 45%;
+    left: 23%;
 }
 .lampa {
     position: absolute;
